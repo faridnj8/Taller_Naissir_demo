@@ -82,7 +82,7 @@ elif menu == "Add Record":
     st.subheader("➕ Add Maintenance Record")
     with st.form("entry_form", clear_on_submit=True):
         date = st.date_input("Date", datetime.date.today())
-        category = st.selectbox("Category", ["Mechanical", "Electrical", "Hydraulics", "Logistics", "Other"])
+        category = st.selectbox("Category", ["Mechanical", "Electrical", "Chairs/Cushions", "Sanitation", "Other"])
         equipment = st.text_input("Equipment")
         task = st.text_area("Task Description")
         technician = st.text_input("Technician")
@@ -113,4 +113,5 @@ elif menu == "Analytics":
         st.dataframe(pending_df[["Date", "Equipment", "Priority", "Technician", "Status", "Notes"]])
     else:
         st.warning("No data available for analytics.")
+
 
