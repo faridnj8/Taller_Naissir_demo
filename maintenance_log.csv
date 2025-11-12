@@ -1,0 +1,4 @@
+"Date,Category,Equipment,Task,Technician,Status,Priority,Notes"
+"2025-10-01,Mechanical,Compressor,Oil replacement,John Doe,Completed,Low,All good"
+"2025-10-05,Electrical,Generator,Filter cleaning,Alice Smith,Pending,High,Waiting for spare parts"
+"2025-10-07,Logistics,Conveyor Belt,Belt tension check,Farid Naissir,In Progress,Medium,Under inspection"
