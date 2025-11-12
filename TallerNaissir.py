@@ -13,7 +13,7 @@ import datetime
 st.set_page_config(page_title="Taller Naissir Maintenance Dashboard", layout="wide")
 
 # --- HEADER ---
-st.title("🔧 Maintenance Management Dashboard")
+st.title("Maintenance Management Dashboard")
 st.markdown("Taller Naissir maintenance tracking system")
 st.markdown("This is a demo version built with **Streamlit + Python** for data protection of Taller Naissir's operations")
 
@@ -113,3 +113,4 @@ elif menu == "Analytics":
         st.dataframe(pending_df[["Date", "Equipment", "Priority", "Technician", "Status", "Notes"]])
     else:
         st.warning("No data available for analytics.")
+
